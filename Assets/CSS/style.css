@@ -417,6 +417,7 @@ span {
     margin-top: 20px;
 }
 
+
 .cor-de-fundo:hover {
     background-color:  rgb(220, 223, 90);
     box-shadow: 0 0 5px rgb(220, 223, 90), 0 0 10px rgba(217, 219, 107, 0.918), 0 0 15px rgb(210, 211, 132);
@@ -474,7 +475,6 @@ span {
 .void {
     display: none;
 }
-
 
 #img-promo {
     width: 170px; 
