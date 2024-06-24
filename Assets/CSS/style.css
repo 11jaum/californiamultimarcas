@@ -655,6 +655,7 @@ span {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
+    height: 350px;
 }
 
 @media screen and (max-width: 850px) {
@@ -674,7 +675,7 @@ span {
     background-color: #ddd;
     text-align: center;
     width: 230px;
-    height: 270px;
+    height: 300px;
     border-radius: 39px;
     transition: transform 0.3s ease;
     scroll-snap-align: start;
