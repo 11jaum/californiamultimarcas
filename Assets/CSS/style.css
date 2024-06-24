@@ -652,6 +652,20 @@ span {
     position: relative;
     align-items: center;
     justify-content: center;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media screen and (max-width: 850px) {
+    .cor-de-camisa {
+        position: relative;
+        left: 250%;
+    }
+
+    .container-blocos {
+        margin: 2%;
+    }
 }
 
 .cor-de-camisa {
@@ -812,5 +826,16 @@ span {
 
     .cores-titulo {
         text-align: left;
+    }
+
+    .cores-titulo {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        margin: 10px;
+    }
+
+    .btn-instagram {
+        margin-bottom: 5px;
     }
 }
